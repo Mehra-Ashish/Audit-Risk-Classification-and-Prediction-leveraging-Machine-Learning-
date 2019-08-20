@@ -1,0 +1,7 @@
+Model Name	Train_Score	Test_Score	Avg_Cross_Val Score	Precision	Recall Score	f1-score	Parameter
+KNN	0.986	0.96	0.98	0.97	0.93	0.95	k = 3
+Logistic Regression	0.99	0.99	0.99	0.99	1	0.99	"C=2000, Penalty = l2"
+SVM('linear')	0.99	0.99	0.99	0.99	1	0.99	C=1000
+SVM('rbf')	0.98	0.99	0.98	0.99	0.99	0.99	"C=1000, gamma = 0.01"
+SVM('poly')	0.986	0.989	0.986	0.99	1	0.99	"C=1000, degree = 1"
+Decision Tree	0.98	0.969	0.97	0.99	0.94	0.96	"depth = 4, min_sample_split=2, min_samples_leaf=5"

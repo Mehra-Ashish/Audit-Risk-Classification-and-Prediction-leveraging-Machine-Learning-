@@ -1,0 +1,11 @@
+﻿Model Name,Train_Score,Avg_Cross_Val Score,Test_Score
+Linear Regression, 0.8158 , 0.4100 , 0.4210 
+SGD Regressor, 0.8151 , 0.4200 , 0.4240 
+Ridge Regression, 0.7000 , 0.6300 , 0.2800 
+Lasso Regression, 0.7900 , 0.6000 , 0.40' 
+Polynomial Regression, 0.9900 , 0.9900 , 0.9700 
+Knn Regressor, 1.0000 , 0.7300 , 0.1400 
+SVR('linear'), 0.7150 , 0.7150 , 0.3980 
+SVR('rbf'), 0.9900 , 0.9900 , 0.1520 
+SVR('poly'), 0.6813 , 0.6813 , 0.3590 
+Decision Tree, 0.9900 , 0.3900 , 0.5860 
